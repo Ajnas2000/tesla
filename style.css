@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+ 
+}
+.logo {
+    width: 120px;
+    height: 10px;
+
+  }
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 20px;
+  height: 50px;
+  color: #0a0a0a;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  font-size: 10px;
+  font-weight: 800;
+  
+
+}
+
+
+.nav-container .icons {
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.nav-container .icons i {
+  border-radius: 10%;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pages li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  color: #080707;
+  scroll-snap-align: start;
+}
+
+.pages li img,
+.pages li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.page-info h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+.page-info h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.page-footer .buttons {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.page-footer .buttons button {
+  font-size: 13px;
+  padding: 7px 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+ .b1 {
+  background-color:black;
+  color: #fff;
+}
+
+.b2 {
+  background-color:white;
+  color:black;
+}
+
+.page-infow h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+.page-infow h4 {
+  font-weight: 500;
+  text-underline-position: below;
+  font-size: 20px;
+  color: #fff;
+}
+.textp{
+  background-color: #010101;
+  color: gainsboro;
+  font-size: 1vw;
+  padding-top: 20px;
+}
+footer{
+background: #0a0a0a;
+position:bottom;
+word-spacing: 10px;
+font-size: 10px;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}
+  
